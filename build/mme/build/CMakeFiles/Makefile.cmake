@@ -135,6 +135,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/auth_request.dir/DependInfo.cmake"
+  "CMakeFiles/hss_utils.dir/DependInfo.cmake"
+  "CMakeFiles/hss_s6a.dir/DependInfo.cmake"
   "CMakeFiles/GTPV1U.dir/DependInfo.cmake"
   "CMakeFiles/mme.dir/DependInfo.cmake"
   "CMakeFiles/hss_access_restriction.dir/DependInfo.cmake"
@@ -158,6 +160,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/S11_SGW.dir/DependInfo.cmake"
   "CMakeFiles/SGW.dir/DependInfo.cmake"
   "CMakeFiles/LIB_NAS_MME.dir/DependInfo.cmake"
-  "CMakeFiles/hss_utils.dir/DependInfo.cmake"
+  "CMakeFiles/hss_auc.dir/DependInfo.cmake"
   "tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/DependInfo.cmake"
   )

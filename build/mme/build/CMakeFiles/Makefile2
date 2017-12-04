@@ -29,6 +29,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -66,7 +69,7 @@ CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 CMakeFiles/auth_request.dir/all:
 	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/depend
 	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=97 "Built target auth_request"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num= "Built target auth_request"
 .PHONY : CMakeFiles/auth_request.dir/all
 
 # Include target in all.
@@ -76,7 +79,7 @@ all: CMakeFiles/auth_request.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/auth_request.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/auth_request.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/auth_request.dir/rule
@@ -93,6 +96,80 @@ CMakeFiles/auth_request.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/auth_request.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hss_utils.dir
+
+# All Build rule for target.
+CMakeFiles/hss_utils.dir/all:
+	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/depend
+	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num= "Built target hss_utils"
+.PHONY : CMakeFiles/hss_utils.dir/all
+
+# Include target in all.
+all: CMakeFiles/hss_utils.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hss_utils.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hss_utils.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
+.PHONY : CMakeFiles/hss_utils.dir/rule
+
+# Convenience name for target.
+hss_utils: CMakeFiles/hss_utils.dir/rule
+
+.PHONY : hss_utils
+
+# clean rule for target.
+CMakeFiles/hss_utils.dir/clean:
+	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/clean
+.PHONY : CMakeFiles/hss_utils.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hss_utils.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hss_s6a.dir
+
+# All Build rule for target.
+CMakeFiles/hss_s6a.dir/all:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/depend
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=97,98 "Built target hss_s6a"
+.PHONY : CMakeFiles/hss_s6a.dir/all
+
+# Include target in all.
+all: CMakeFiles/hss_s6a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hss_s6a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hss_s6a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
+.PHONY : CMakeFiles/hss_s6a.dir/rule
+
+# Convenience name for target.
+hss_s6a: CMakeFiles/hss_s6a.dir/rule
+
+.PHONY : hss_s6a
+
+# clean rule for target.
+CMakeFiles/hss_s6a.dir/clean:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/clean
+.PHONY : CMakeFiles/hss_s6a.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hss_s6a.dir/clean
 
 .PHONY : clean
 
@@ -137,6 +214,7 @@ clean: CMakeFiles/GTPV1U.dir/clean
 # Target rules for target CMakeFiles/mme.dir
 
 # All Build rule for target.
+CMakeFiles/mme.dir/all: CMakeFiles/hss_utils.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/hss_access_restriction.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/GTPV2C.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/MSC.dir/all
@@ -155,7 +233,7 @@ CMakeFiles/mme.dir/all: CMakeFiles/S11_MME.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/SECU_CN.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/MME_APP.dir/all
 CMakeFiles/mme.dir/all: CMakeFiles/LIB_NAS_MME.dir/all
-CMakeFiles/mme.dir/all: CMakeFiles/hss_utils.dir/all
+CMakeFiles/mme.dir/all: CMakeFiles/hss_auc.dir/all
 	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/depend
 	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=99 "Built target mme"
@@ -195,7 +273,7 @@ clean: CMakeFiles/mme.dir/clean
 CMakeFiles/hss_access_restriction.dir/all:
 	$(MAKE) -f CMakeFiles/hss_access_restriction.dir/build.make CMakeFiles/hss_access_restriction.dir/depend
 	$(MAKE) -f CMakeFiles/hss_access_restriction.dir/build.make CMakeFiles/hss_access_restriction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num= "Built target hss_access_restriction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=95 "Built target hss_access_restriction"
 .PHONY : CMakeFiles/hss_access_restriction.dir/all
 
 # Include target in all.
@@ -205,7 +283,7 @@ all: CMakeFiles/hss_access_restriction.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hss_access_restriction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hss_access_restriction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/hss_access_restriction.dir/rule
@@ -269,7 +347,7 @@ clean: CMakeFiles/GTPV2C.dir/clean
 CMakeFiles/MSC.dir/all:
 	$(MAKE) -f CMakeFiles/MSC.dir/build.make CMakeFiles/MSC.dir/depend
 	$(MAKE) -f CMakeFiles/MSC.dir/build.make CMakeFiles/MSC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=35 "Built target MSC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=34 "Built target MSC"
 .PHONY : CMakeFiles/MSC.dir/all
 
 # Include target in all.
@@ -343,7 +421,7 @@ clean: CMakeFiles/CN_UTILS.dir/clean
 CMakeFiles/S1AP_EPC.dir/all:
 	$(MAKE) -f CMakeFiles/S1AP_EPC.dir/build.make CMakeFiles/S1AP_EPC.dir/depend
 	$(MAKE) -f CMakeFiles/S1AP_EPC.dir/build.make CMakeFiles/S1AP_EPC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=37,38 "Built target S1AP_EPC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=36,37 "Built target S1AP_EPC"
 .PHONY : CMakeFiles/S1AP_EPC.dir/all
 
 # Include target in all.
@@ -511,7 +589,7 @@ all: CMakeFiles/spgw.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spgw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/spgw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/spgw.dir/rule
@@ -575,7 +653,7 @@ clean: CMakeFiles/LFDS.dir/clean
 CMakeFiles/SCTP_SERVER.dir/all:
 	$(MAKE) -f CMakeFiles/SCTP_SERVER.dir/build.make CMakeFiles/SCTP_SERVER.dir/depend
 	$(MAKE) -f CMakeFiles/SCTP_SERVER.dir/build.make CMakeFiles/SCTP_SERVER.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=93 "Built target SCTP_SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=91 "Built target SCTP_SERVER"
 .PHONY : CMakeFiles/SCTP_SERVER.dir/all
 
 # Include target in all.
@@ -612,7 +690,7 @@ clean: CMakeFiles/SCTP_SERVER.dir/clean
 CMakeFiles/S1AP_LIB.dir/all:
 	$(MAKE) -f CMakeFiles/S1AP_LIB.dir/build.make CMakeFiles/S1AP_LIB.dir/depend
 	$(MAKE) -f CMakeFiles/S1AP_LIB.dir/build.make CMakeFiles/S1AP_LIB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Built target S1AP_LIB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target S1AP_LIB"
 .PHONY : CMakeFiles/S1AP_LIB.dir/all
 
 # Include target in all.
@@ -622,7 +700,7 @@ all: CMakeFiles/S1AP_LIB.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/S1AP_LIB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/S1AP_LIB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/S1AP_LIB.dir/rule
@@ -649,7 +727,7 @@ clean: CMakeFiles/S1AP_LIB.dir/clean
 CMakeFiles/S6A.dir/all:
 	$(MAKE) -f CMakeFiles/S6A.dir/build.make CMakeFiles/S6A.dir/depend
 	$(MAKE) -f CMakeFiles/S6A.dir/build.make CMakeFiles/S6A.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=92 "Built target S6A"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=90 "Built target S6A"
 .PHONY : CMakeFiles/S6A.dir/all
 
 # Include target in all.
@@ -686,7 +764,7 @@ clean: CMakeFiles/S6A.dir/clean
 CMakeFiles/UDP_SERVER.dir/all:
 	$(MAKE) -f CMakeFiles/UDP_SERVER.dir/build.make CMakeFiles/UDP_SERVER.dir/depend
 	$(MAKE) -f CMakeFiles/UDP_SERVER.dir/build.make CMakeFiles/UDP_SERVER.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=96 "Built target UDP_SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=94 "Built target UDP_SERVER"
 .PHONY : CMakeFiles/UDP_SERVER.dir/all
 
 # Include target in all.
@@ -760,7 +838,7 @@ clean: CMakeFiles/hss_db.dir/clean
 CMakeFiles/S11_MME.dir/all:
 	$(MAKE) -f CMakeFiles/S11_MME.dir/build.make CMakeFiles/S11_MME.dir/depend
 	$(MAKE) -f CMakeFiles/S11_MME.dir/build.make CMakeFiles/S11_MME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num= "Built target S11_MME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=35 "Built target S11_MME"
 .PHONY : CMakeFiles/S11_MME.dir/all
 
 # Include target in all.
@@ -770,7 +848,7 @@ all: CMakeFiles/S11_MME.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/S11_MME.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/S11_MME.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/S11_MME.dir/rule
@@ -797,7 +875,7 @@ clean: CMakeFiles/S11_MME.dir/clean
 CMakeFiles/SECU_CN.dir/all:
 	$(MAKE) -f CMakeFiles/SECU_CN.dir/build.make CMakeFiles/SECU_CN.dir/depend
 	$(MAKE) -f CMakeFiles/SECU_CN.dir/build.make CMakeFiles/SECU_CN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=94 "Built target SECU_CN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=92 "Built target SECU_CN"
 .PHONY : CMakeFiles/SECU_CN.dir/all
 
 # Include target in all.
@@ -834,7 +912,7 @@ clean: CMakeFiles/SECU_CN.dir/clean
 CMakeFiles/MME_APP.dir/all:
 	$(MAKE) -f CMakeFiles/MME_APP.dir/build.make CMakeFiles/MME_APP.dir/depend
 	$(MAKE) -f CMakeFiles/MME_APP.dir/build.make CMakeFiles/MME_APP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=33,34 "Built target MME_APP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=33 "Built target MME_APP"
 .PHONY : CMakeFiles/MME_APP.dir/all
 
 # Include target in all.
@@ -844,7 +922,7 @@ all: CMakeFiles/MME_APP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MME_APP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MME_APP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/MME_APP.dir/rule
@@ -871,7 +949,7 @@ clean: CMakeFiles/MME_APP.dir/clean
 CMakeFiles/S11_SGW.dir/all:
 	$(MAKE) -f CMakeFiles/S11_SGW.dir/build.make CMakeFiles/S11_SGW.dir/depend
 	$(MAKE) -f CMakeFiles/S11_SGW.dir/build.make CMakeFiles/S11_SGW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=36 "Built target S11_SGW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num= "Built target S11_SGW"
 .PHONY : CMakeFiles/S11_SGW.dir/all
 
 # Include target in all.
@@ -881,7 +959,7 @@ all: CMakeFiles/S11_SGW.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/S11_SGW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/S11_SGW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : CMakeFiles/S11_SGW.dir/rule
@@ -908,7 +986,7 @@ clean: CMakeFiles/S11_SGW.dir/clean
 CMakeFiles/SGW.dir/all:
 	$(MAKE) -f CMakeFiles/SGW.dir/build.make CMakeFiles/SGW.dir/depend
 	$(MAKE) -f CMakeFiles/SGW.dir/build.make CMakeFiles/SGW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=95 "Built target SGW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=93 "Built target SGW"
 .PHONY : CMakeFiles/SGW.dir/all
 
 # Include target in all.
@@ -976,39 +1054,39 @@ clean: CMakeFiles/LIB_NAS_MME.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hss_utils.dir
+# Target rules for target CMakeFiles/hss_auc.dir
 
 # All Build rule for target.
-CMakeFiles/hss_utils.dir/all:
-	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/depend
-	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=98 "Built target hss_utils"
-.PHONY : CMakeFiles/hss_utils.dir/all
+CMakeFiles/hss_auc.dir/all:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/depend
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=96 "Built target hss_auc"
+.PHONY : CMakeFiles/hss_auc.dir/all
 
 # Include target in all.
-all: CMakeFiles/hss_utils.dir/all
+all: CMakeFiles/hss_auc.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hss_utils.dir/rule: cmake_check_build_system
+CMakeFiles/hss_auc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hss_utils.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hss_auc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
-.PHONY : CMakeFiles/hss_utils.dir/rule
+.PHONY : CMakeFiles/hss_auc.dir/rule
 
 # Convenience name for target.
-hss_utils: CMakeFiles/hss_utils.dir/rule
+hss_auc: CMakeFiles/hss_auc.dir/rule
 
-.PHONY : hss_utils
-
-# clean rule for target.
-CMakeFiles/hss_utils.dir/clean:
-	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/clean
-.PHONY : CMakeFiles/hss_utils.dir/clean
+.PHONY : hss_auc
 
 # clean rule for target.
-clean: CMakeFiles/hss_utils.dir/clean
+CMakeFiles/hss_auc.dir/clean:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/clean
+.PHONY : CMakeFiles/hss_auc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hss_auc.dir/clean
 
 .PHONY : clean
 
@@ -1047,7 +1125,7 @@ all: tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule

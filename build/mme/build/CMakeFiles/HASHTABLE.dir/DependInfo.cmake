@@ -33,7 +33,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "NETTLE_VERSION_MINOR=3"
   "PACKAGE_BUGREPORT=\"openaircn-user@lists.eurecom.fr\""
   "PACKAGE_NAME=\"MME\""
-  "PACKAGE_VERSION=\"Branch: integrate_hss Abrev. Hash: db1d824 Date: Fri Dec 1 14:55:59 2017 -0800\""
+  "PACKAGE_VERSION=\"Branch: integrate_hss Abrev. Hash: ba540e8 Date: Mon Dec 4 10:36:53 2017 -0800\""
   "S1AP_DEBUG_LIST=0"
   "S1AP_VERSION=R10"
   "SCTP_DUMP_LIST=0"
@@ -79,6 +79,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/spencer/Desktop/enbrains/src/nas/esm/sap"
   "/home/spencer/Desktop/enbrains/src/utils/lfds/liblfds6.1.1/liblfds611/src"
   "/usr/include/libxml2"
+  "/home/spencer/Desktop/enbrains/src/oai_hss/utils"
+  "/home/spencer/Desktop/enbrains/src/oai_hss/s6a"
+  "/home/spencer/Desktop/enbrains/src/oai_hss/db"
+  "/home/spencer/Desktop/enbrains/src/oai_hss/auc"
+  "/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction"
   )
 
 # Targets to which this target links.

@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -213,6 +216,7 @@ mme: libBSTR.a
 mme: libhss_access_restriction.a
 mme: libhss_db.a
 mme: libhss_utils.a
+mme: libhss_auc.a
 mme: /usr/lib/x86_64-linux-gnu/libnettle.so
 mme: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 mme: /usr/lib/x86_64-linux-gnu/libnettle.so

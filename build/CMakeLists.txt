@@ -916,10 +916,10 @@ set(auc_SRC
 set(auc_HDR
     ${OAI_HSS_DIR}/auc/auc.h
     ${OAI_HSS_DIR}/utils/log.h
+    ${OAI_HSS_DIR}/utils/hss_config.h
 )
 
-# SMS TODO: FIX THIS AND COMMENT BACK IN!!!
-#add_library(hss_auc ${auc_SRC} ${auc_HDR})
+add_library(hss_auc ${auc_SRC} ${auc_HDR})
 
 
 ################################################################################
@@ -994,6 +994,8 @@ set(utils_HDR
 
 add_library(hss_utils ${utils_SRC} ${utils_HDR})
 
+include_directories( ${UTILS_GENERATED_DIR} ${OAI_HSS_DIR}/utils ${OAI_HSS_DIR}/s6a ${OAI_HSS_DIR}/db ${OAI_HSS_DIR}/auc ${OAI_HSS_DIR}/access_restriction)
+
 ################################################################################
 # SMS BIG EDITS END HERE
 ################################################################################
@@ -1019,9 +1021,9 @@ endif( ITTI_ANALYZER )
 target_link_libraries (mme
   -Wl,--start-group
    LIB_NAS_MME S1AP_LIB S1AP_EPC S11_MME GTPV2C SCTP_SERVER UDP_SERVER SECU_CN  S6A MME_APP LFDS ${MSC_LIB} ${ITTI_LIB} CN_UTILS HASHTABLE BSTR 
-  hss_access_restriction hss_db hss_utils
+  hss_access_restriction hss_db hss_utils hss_auc
 # SMS TODO: UN-COMMENT THIS LINE
-#  hss_auc hss_s6a
+#  hss_s6a
   -Wl,--end-group
 # SMS NOTE: FREEDIAMETER'S NOT IN HERE, BUT IS FOR HSS.
   pthread m sctp  rt crypt ${CRYPTO_LIBRARIES} ${OPENSSL_LIBRARIES} ${NETTLE_LIBRARIES} ${CONFIG_LIBRARIES} ${MySQL_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} gnutls fdproto fdcore

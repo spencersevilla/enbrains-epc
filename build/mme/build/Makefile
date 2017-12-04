@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -133,6 +136,32 @@ auth_request: cmake_check_build_system
 auth_request/fast:
 	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/build
 .PHONY : auth_request/fast
+
+#=============================================================================
+# Target rules for targets named hss_utils
+
+# Build rule for target.
+hss_utils: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hss_utils
+.PHONY : hss_utils
+
+# fast build rule for target.
+hss_utils/fast:
+	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/build
+.PHONY : hss_utils/fast
+
+#=============================================================================
+# Target rules for targets named hss_s6a
+
+# Build rule for target.
+hss_s6a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hss_s6a
+.PHONY : hss_s6a
+
+# fast build rule for target.
+hss_s6a/fast:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/build
+.PHONY : hss_s6a/fast
 
 #=============================================================================
 # Target rules for targets named GTPV1U
@@ -434,17 +463,17 @@ LIB_NAS_MME/fast:
 .PHONY : LIB_NAS_MME/fast
 
 #=============================================================================
-# Target rules for targets named hss_utils
+# Target rules for targets named hss_auc
 
 # Build rule for target.
-hss_utils: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hss_utils
-.PHONY : hss_utils
+hss_auc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hss_auc
+.PHONY : hss_auc
 
 # fast build rule for target.
-hss_utils/fast:
-	$(MAKE) -f CMakeFiles/hss_utils.dir/build.make CMakeFiles/hss_utils.dir/build
-.PHONY : hss_utils/fast
+hss_auc/fast:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/build
+.PHONY : hss_auc/fast
 
 #=============================================================================
 # Target rules for targets named test_mme_app_ue_context_imsi
@@ -16692,6 +16721,141 @@ home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.
 	$(MAKE) -f CMakeFiles/hss_access_restriction.dir/build.make CMakeFiles/hss_access_restriction.dir/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.c.s
 .PHONY : home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.c.s
 
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.o: home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.o:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.i: home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.i:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.s: home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.s:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.o: home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.o:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.i: home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.i:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.s: home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.s:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.o: home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.o:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.i: home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.i:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.s: home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.s:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/random.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.o: home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.o:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.i: home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.i:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.s: home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.s:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.o: home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.o:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.i: home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.i:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.s: home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.s:
+	$(MAKE) -f CMakeFiles/hss_auc.dir/build.make CMakeFiles/hss_auc.dir/home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.c.s
+
 home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.o: home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.c.o
 
 .PHONY : home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.o
@@ -16772,6 +16936,276 @@ home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.s: home/spence
 home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.c.s:
 	$(MAKE) -f CMakeFiles/hss_db.dir/build.make CMakeFiles/hss_db.dir/home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.c.s
 .PHONY : home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.c.s
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.o: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.o
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.o
+
+# target to build an object file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.o:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.o
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.o
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.i: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.i
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.i
+
+# target to preprocess a source file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.i:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.i
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.i
+
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.s: home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.s
+
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.s
+
+# target to generate assembly for a file
+home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.s:
+	$(MAKE) -f CMakeFiles/hss_s6a.dir/build.make CMakeFiles/hss_s6a.dir/home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.s
+.PHONY : home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.c.s
 
 home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.o: home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.c.o
 
@@ -19311,6 +19745,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... auth_request"
+	@echo "... hss_utils"
+	@echo "... hss_s6a"
 	@echo "... test"
 	@echo "... GTPV1U"
 	@echo "... mme"
@@ -19335,7 +19771,7 @@ help:
 	@echo "... S11_SGW"
 	@echo "... SGW"
 	@echo "... LIB_NAS_MME"
-	@echo "... hss_utils"
+	@echo "... hss_auc"
 	@echo "... test_mme_app_ue_context_imsi"
 	@echo "... CMakeFiles/r10.5/ANY.o"
 	@echo "... CMakeFiles/r10.5/ANY.i"
@@ -21140,6 +21576,21 @@ help:
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.o"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.i"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/fx.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/kdf.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/random.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/random.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/random.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/rijndael.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/auc/sequence_number.s"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.o"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.i"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_connector.s"
@@ -21149,6 +21600,36 @@ help:
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.o"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.i"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/db/db_subscription_data.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_auth_info.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_common.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_error.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_fd.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_in_addr.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_peers.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_purge_ue.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_subscription_data.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_supported_features.s"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.o"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.i"
+	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/s6a/s6a_up_loc.s"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.o"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.i"
 	@echo "... home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.s"

@@ -30,7 +30,7 @@
 /*******************************************************************************
  * This file had been created by asn1tostruct.py script v1.0.2
  * Please do not modify this file but regenerate it via script.
- * Created on: 2017-12-01 19:25:07.000824 by spencer
+ * Created on: 2017-12-04 11:21:34.899661 by spencer
  * from ['/home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-PDU-Contents.asn']
  ******************************************************************************/
 #include <stdlib.h>
