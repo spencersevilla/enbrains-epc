@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MSC.dir/home/spencer/Desktop/epc-dolte/src/utils/msc/msc.c.o"
+  "CMakeFiles/MSC.dir/home/spencer/Desktop/enbrains/src/utils/msc/msc.c.o"
   "libMSC.pdb"
   "libMSC.a"
 )

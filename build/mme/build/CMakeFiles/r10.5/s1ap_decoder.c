@@ -30,8 +30,8 @@
 /*******************************************************************************
  * This file had been created by asn1tostruct.py script v1.0.2
  * Please do not modify this file but regenerate it via script.
- * Created on: 2017-11-28 16:02:20.173231 by spencer
- * from ['/home/spencer/Desktop/epc-dolte/src/s1ap/messages/asn1/r10.5/S1AP-PDU-Contents.asn']
+ * Created on: 2017-12-01 19:25:06.944209 by spencer
+ * from ['/home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-PDU-Contents.asn']
  ******************************************************************************/
 #include "s1ap_common.h"
 #include "s1ap_ies_defs.h"

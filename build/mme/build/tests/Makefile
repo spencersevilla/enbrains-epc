@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spencer/Desktop/epc-dolte/build/mme
+CMAKE_SOURCE_DIR = /home/spencer/Desktop/enbrains/build/mme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spencer/Desktop/epc-dolte/build/mme/build
+CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles /home/spencer/Desktop/epc-dolte/build/mme/build/tests/CMakeFiles/progress.marks
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles 0
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles /home/spencer/Desktop/enbrains/build/mme/build/tests/CMakeFiles/progress.marks
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule
 .PHONY : tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ test_mme_app_ue_context_imsi: tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/
 
 # fast build rule for target.
 test_mme_app_ue_context_imsi/fast:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build
 .PHONY : test_mme_app_ue_context_imsi/fast
 
 test_mme_app_ue_context.o: test_mme_app_ue_context.c.o
@@ -142,7 +142,7 @@ test_mme_app_ue_context.o: test_mme_app_ue_context.c.o
 
 # target to build an object file
 test_mme_app_ue_context.c.o:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o
 .PHONY : test_mme_app_ue_context.c.o
 
 test_mme_app_ue_context.i: test_mme_app_ue_context.c.i
@@ -151,7 +151,7 @@ test_mme_app_ue_context.i: test_mme_app_ue_context.c.i
 
 # target to preprocess a source file
 test_mme_app_ue_context.c.i:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i
 .PHONY : test_mme_app_ue_context.c.i
 
 test_mme_app_ue_context.s: test_mme_app_ue_context.c.s
@@ -160,7 +160,7 @@ test_mme_app_ue_context.s: test_mme_app_ue_context.c.s
 
 # target to generate assembly for a file
 test_mme_app_ue_context.c.s:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(MAKE) -f tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s
 .PHONY : test_mme_app_ue_context.c.s
 
 # Help Target
@@ -187,6 +187,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

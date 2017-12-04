@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spencer/Desktop/epc-dolte/build/mme
+CMAKE_SOURCE_DIR = /home/spencer/Desktop/enbrains/build/mme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spencer/Desktop/epc-dolte/build/mme/build
+CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/spgw.dir/depend.make
@@ -57,64 +57,64 @@ include CMakeFiles/spgw.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spgw.dir/flags.make
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o: CMakeFiles/spgw.dir/flags.make
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o: /home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o   -c /home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o: CMakeFiles/spgw.dir/flags.make
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o: /home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o   -c /home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c > CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.i
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c > CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.i
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c -o CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.s
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c -o CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.s
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.requires:
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.requires:
 
-.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.requires
+.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.requires
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.provides: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.requires
-	$(MAKE) -f CMakeFiles/spgw.dir/build.make CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.provides.build
-.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.provides
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.provides: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.requires
+	$(MAKE) -f CMakeFiles/spgw.dir/build.make CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.provides.build
+.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.provides
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.provides.build: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.provides.build: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o
 
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o: CMakeFiles/spgw.dir/flags.make
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o: /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o   -c /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o: CMakeFiles/spgw.dir/flags.make
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o: /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o   -c /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c > CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c > CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c -o CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c -o CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires:
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires:
 
-.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
+.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
-	$(MAKE) -f CMakeFiles/spgw.dir/build.make CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides.build
-.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
+	$(MAKE) -f CMakeFiles/spgw.dir/build.make CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides.build
+.PHONY : CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides
 
-CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides.build: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o
+CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides.build: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o
 
 
 # Object files for target spgw
 spgw_OBJECTS = \
-"CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o" \
-"CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o"
+"CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o" \
+"CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o"
 
 # External object files for target spgw
 spgw_EXTERNAL_OBJECTS =
 
-spgw: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o
-spgw: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o
+spgw: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o
+spgw: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o
 spgw: CMakeFiles/spgw.dir/build.make
 spgw: libGTPV1U.a
 spgw: libSGW.a
@@ -128,7 +128,7 @@ spgw: libCN_UTILS.a
 spgw: libHASHTABLE.a
 spgw: libBSTR.a
 spgw: CMakeFiles/spgw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable spgw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable spgw"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spgw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,8 +136,8 @@ CMakeFiles/spgw.dir/build: spgw
 
 .PHONY : CMakeFiles/spgw.dir/build
 
-CMakeFiles/spgw.dir/requires: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/oai_sgw/oai_sgw.c.o.requires
-CMakeFiles/spgw.dir/requires: CMakeFiles/spgw.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
+CMakeFiles/spgw.dir/requires: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/oai_sgw/oai_sgw.c.o.requires
+CMakeFiles/spgw.dir/requires: CMakeFiles/spgw.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
 
 .PHONY : CMakeFiles/spgw.dir/requires
 
@@ -146,6 +146,6 @@ CMakeFiles/spgw.dir/clean:
 .PHONY : CMakeFiles/spgw.dir/clean
 
 CMakeFiles/spgw.dir/depend:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles/spgw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles/spgw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spgw.dir/depend
 

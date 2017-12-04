@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spencer/Desktop/epc-dolte/build/mme
+CMAKE_SOURCE_DIR = /home/spencer/Desktop/enbrains/build/mme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spencer/Desktop/epc-dolte/build/mme/build
+CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/depend.make
@@ -58,17 +58,17 @@ include tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/progress.make
 include tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/flags.make
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o: tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/flags.make
-tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o: /home/spencer/Desktop/epc-dolte/src/test/test_mme_app_ue_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o"
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o   -c /home/spencer/Desktop/epc-dolte/src/test/test_mme_app_ue_context.c
+tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o: /home/spencer/Desktop/enbrains/src/test/test_mme_app_ue_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o"
+	cd /home/spencer/Desktop/enbrains/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o   -c /home/spencer/Desktop/enbrains/src/test/test_mme_app_ue_context.c
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i"
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/test/test_mme_app_ue_context.c > CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i
+	cd /home/spencer/Desktop/enbrains/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/test/test_mme_app_ue_context.c > CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.i
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s"
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/test/test_mme_app_ue_context.c -o CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s
+	cd /home/spencer/Desktop/enbrains/build/mme/build/tests && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/test/test_mme_app_ue_context.c -o CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.s
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/test_mme_app_ue_context.c.o.requires:
 
@@ -92,8 +92,8 @@ tests/test_mme_app_ue_context_imsi: tests/CMakeFiles/test_mme_app_ue_context_ims
 tests/test_mme_app_ue_context_imsi: tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build.make
 tests/test_mme_app_ue_context_imsi: libMME_APP.a
 tests/test_mme_app_ue_context_imsi: tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_mme_app_ue_context_imsi"
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_mme_app_ue_context_imsi.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_mme_app_ue_context_imsi"
+	cd /home/spencer/Desktop/enbrains/build/mme/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_mme_app_ue_context_imsi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/build: tests/test_mme_app_ue_context_imsi
@@ -105,10 +105,10 @@ tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/requires: tests/CMakeFiles/tes
 .PHONY : tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/requires
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/clean:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_mme_app_ue_context_imsi.dir/cmake_clean.cmake
+	cd /home/spencer/Desktop/enbrains/build/mme/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_mme_app_ue_context_imsi.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/clean
 
 tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/depend:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/src/test /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build/tests /home/spencer/Desktop/epc-dolte/build/mme/build/tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/src/test /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build/tests /home/spencer/Desktop/enbrains/build/mme/build/tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test_mme_app_ue_context_imsi.dir/depend
 

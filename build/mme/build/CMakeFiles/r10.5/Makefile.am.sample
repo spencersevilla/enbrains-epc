@@ -812,5 +812,5 @@ clean:
 regen: regenerate-from-asn1-source
 
 regenerate-from-asn1-source:
-	asn1c -gen-PER -fcompound-names /home/spencer/Desktop/epc-dolte/src/s1ap/messages/asn1/r10.5/S1AP-CommonDataTypes.asn /home/spencer/Desktop/epc-dolte/src/s1ap/messages/asn1/r10.5/S1AP-Constants.asn /home/spencer/Desktop/epc-dolte/src/s1ap/messages/asn1/r10.5/S1AP-IEs.asn /home/spencer/Desktop/epc-dolte/src/s1ap/messages/asn1/r10.5/S1AP-PDU.asn
+	asn1c -gen-PER -fcompound-names /home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-CommonDataTypes.asn /home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-Constants.asn /home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-IEs.asn /home/spencer/Desktop/enbrains/src/s1ap/messages/asn1/r10.5/S1AP-PDU.asn
 

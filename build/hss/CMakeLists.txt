@@ -27,9 +27,7 @@ project(HSS)
 
 ENABLE_LANGUAGE(C)
 #Sends the -std=c99 flag to the gcc compiler
-#add_definitions(-std=c99)
-
-ADD_DEFINITIONS(-D_GNU_SOURCE)
+#add_definitions(-std=gnu99)
 
 if( NOT DEFINED OPENAIRCN_DIR)
   message(SEND_ERROR "OPENAIRCN_DIR not set: ${OPENAIRCN_DIR}")

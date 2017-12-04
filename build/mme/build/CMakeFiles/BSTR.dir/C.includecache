@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstraux.c
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstraux.c
 stdio.h
 -
 stdlib.h
@@ -18,17 +18,17 @@ limits.h
 ctype.h
 -
 bstrlib.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 bstraux.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstraux.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstraux.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstraux.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstraux.h
 time.h
 -
 bstrlib.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.c
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.c
 stdio.h
 -
 stddef.h
@@ -44,11 +44,11 @@ ctype.h
 limits.h
 -
 bstrlib.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 memdbg.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/memdbg.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/memdbg.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 stdarg.h
 -
 string.h
@@ -58,23 +58,23 @@ limits.h
 ctype.h
 -
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/buniutil.c
+/home/spencer/Desktop/enbrains/src/utils/bstr/buniutil.c
 bstrlib.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 buniutil.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/buniutil.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/buniutil.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/buniutil.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/buniutil.h
 utf8util.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/utf8util.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/utf8util.h
 bstrlib.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/utf8util.c
+/home/spencer/Desktop/enbrains/src/utils/bstr/utf8util.c
 utf8util.h
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/utf8util.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/utf8util.h
 
-/home/spencer/Desktop/epc-dolte/src/utils/bstr/utf8util.h
+/home/spencer/Desktop/enbrains/src/utils/bstr/utf8util.h
 limits.h
 -
 

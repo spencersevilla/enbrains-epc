@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UDP_SERVER.dir/home/spencer/Desktop/epc-dolte/src/udp/udp_primitives_server.c.o"
+  "CMakeFiles/UDP_SERVER.dir/home/spencer/Desktop/enbrains/src/udp/udp_primitives_server.c.o"
   "libUDP_SERVER.pdb"
   "libUDP_SERVER.a"
 )

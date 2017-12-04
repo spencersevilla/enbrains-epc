@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spencer/Desktop/epc-dolte/build/mme
+CMAKE_SOURCE_DIR = /home/spencer/Desktop/enbrains/build/mme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spencer/Desktop/epc-dolte/build/mme/build
+CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mme.dir/depend.make
@@ -57,142 +57,142 @@ include CMakeFiles/mme.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mme.dir/flags.make
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o: CMakeFiles/mme.dir/flags.make
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o: /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o   -c /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o: CMakeFiles/mme.dir/flags.make
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o: /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o   -c /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c > CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.i
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c > CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.i
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.s
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.s
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.requires:
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.requires:
 
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.requires
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.requires
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.requires
-	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.provides.build
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.provides
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.requires
+	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.provides.build
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.provides
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o
-
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o: CMakeFiles/mme.dir/flags.make
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o: /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o   -c /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c > CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.i
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.s
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.requires:
-
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.requires
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.requires
-	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.provides.build
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.provides
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o
 
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o: CMakeFiles/mme.dir/flags.make
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o: /home/spencer/Desktop/epc-dolte/src/common/common_types.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o   -c /home/spencer/Desktop/epc-dolte/src/common/common_types.c
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o: CMakeFiles/mme.dir/flags.make
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o: /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o   -c /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/common/common_types.c > CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.i
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c > CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.i
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/common/common_types.c -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.s
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.s
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.requires:
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.requires:
 
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.requires
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.requires
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.requires
-	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.provides.build
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.provides
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.requires
+	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.provides.build
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.provides
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o
-
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o: CMakeFiles/mme.dir/flags.make
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o: /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o   -c /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c > CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.i
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.s
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires:
-
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
-	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides.build
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides
-
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o
 
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o: CMakeFiles/mme.dir/flags.make
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o: /home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o   -c /home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o: CMakeFiles/mme.dir/flags.make
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o: /home/spencer/Desktop/enbrains/src/common/common_types.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o   -c /home/spencer/Desktop/enbrains/src/common/common_types.c
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c > CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.i
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/common/common_types.c > CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.i
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c -o CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.s
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/common/common_types.c -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.s
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.requires:
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.requires:
 
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.requires
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.requires
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.requires
-	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.provides.build
-.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.provides
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.requires
+	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.provides.build
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.provides
 
-CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o
+
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o: CMakeFiles/mme.dir/flags.make
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o: /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o   -c /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c > CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.i
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.s
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires:
+
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
+	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides.build
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o
+
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o: CMakeFiles/mme.dir/flags.make
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o: /home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o   -c /home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c > CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.i
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c -o CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.s
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.requires:
+
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.requires
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.provides: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.requires
+	$(MAKE) -f CMakeFiles/mme.dir/build.make CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.provides.build
+.PHONY : CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.provides
+
+CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.provides.build: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o
 
 
 # Object files for target mme
 mme_OBJECTS = \
-"CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o" \
-"CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o" \
-"CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o" \
-"CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o" \
-"CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o"
+"CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o" \
+"CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o" \
+"CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o" \
+"CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o" \
+"CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o"
 
 # External object files for target mme
 mme_EXTERNAL_OBJECTS =
 
-mme: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o
-mme: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o
-mme: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o
-mme: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o
-mme: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o
+mme: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o
+mme: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o
+mme: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o
+mme: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o
+mme: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o
 mme: CMakeFiles/mme.dir/build.make
 mme: libLIB_NAS_MME.a
 mme: libS1AP_LIB.a
@@ -210,8 +210,15 @@ mme: libITTI.a
 mme: libCN_UTILS.a
 mme: libHASHTABLE.a
 mme: libBSTR.a
+mme: libhss_access_restriction.a
+mme: libhss_db.a
+mme: libhss_utils.a
+mme: /usr/lib/x86_64-linux-gnu/libnettle.so
+mme: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
+mme: /usr/lib/x86_64-linux-gnu/libnettle.so
+mme: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 mme: CMakeFiles/mme.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable mme"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable mme"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mme.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,11 +226,11 @@ CMakeFiles/mme.dir/build: mme
 
 .PHONY : CMakeFiles/mme.dir/build
 
-CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme_log.c.o.requires
-CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/oai_mme/oai_mme.c.o.requires
-CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/common_types.c.o.requires
-CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/common/3gpp_24.008.c.o.requires
-CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/epc-dolte/src/nas/nas_mme_task.c.o.requires
+CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme_log.c.o.requires
+CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/oai_mme/oai_mme.c.o.requires
+CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/common_types.c.o.requires
+CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/common/3gpp_24.008.c.o.requires
+CMakeFiles/mme.dir/requires: CMakeFiles/mme.dir/home/spencer/Desktop/enbrains/src/nas/nas_mme_task.c.o.requires
 
 .PHONY : CMakeFiles/mme.dir/requires
 
@@ -232,6 +239,6 @@ CMakeFiles/mme.dir/clean:
 .PHONY : CMakeFiles/mme.dir/clean
 
 CMakeFiles/mme.dir/depend:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles/mme.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles/mme.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mme.dir/depend
 

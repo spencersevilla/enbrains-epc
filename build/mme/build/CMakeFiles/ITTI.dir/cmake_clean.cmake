@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ITTI.dir/home/spencer/Desktop/epc-dolte/src/common/itti/intertask_interface.c.o"
-  "CMakeFiles/ITTI.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o"
-  "CMakeFiles/ITTI.dir/home/spencer/Desktop/epc-dolte/src/common/itti/memory_pools.c.o"
-  "CMakeFiles/ITTI.dir/home/spencer/Desktop/epc-dolte/src/common/itti/signals.c.o"
-  "CMakeFiles/ITTI.dir/home/spencer/Desktop/epc-dolte/src/common/itti/timer.c.o"
+  "CMakeFiles/ITTI.dir/home/spencer/Desktop/enbrains/src/common/itti/intertask_interface.c.o"
+  "CMakeFiles/ITTI.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o"
+  "CMakeFiles/ITTI.dir/home/spencer/Desktop/enbrains/src/common/itti/memory_pools.c.o"
+  "CMakeFiles/ITTI.dir/home/spencer/Desktop/enbrains/src/common/itti/signals.c.o"
+  "CMakeFiles/ITTI.dir/home/spencer/Desktop/enbrains/src/common/itti/timer.c.o"
   "libITTI.pdb"
   "libITTI.a"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hss_access_restriction.dir/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/access_restriction.c.o"
+  "CMakeFiles/hss_access_restriction.dir/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.c.o"
   "libhss_access_restriction.pdb"
   "libhss_access_restriction.a"
 )

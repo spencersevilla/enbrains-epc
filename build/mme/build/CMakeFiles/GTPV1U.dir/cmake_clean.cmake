@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/epc-dolte/src/gtpv1-u/gtpv1u_task.c.o"
-  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/epc-dolte/src/gtpv1-u/gtpv1u_teid_pool.c.o"
-  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/epc-dolte/src/gtpv1-u/gtp_mod_kernel.c.o"
+  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/enbrains/src/gtpv1-u/gtpv1u_task.c.o"
+  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/enbrains/src/gtpv1-u/gtpv1u_teid_pool.c.o"
+  "CMakeFiles/GTPV1U.dir/home/spencer/Desktop/enbrains/src/gtpv1-u/gtp_mod_kernel.c.o"
   "libGTPV1U.pdb"
   "libGTPV1U.a"
 )

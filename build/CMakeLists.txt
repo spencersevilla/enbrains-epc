@@ -869,6 +869,135 @@ endif()
 # Hack on a test of asn1c version (already dirty)
 add_definitions(-DASN1_MINIMUM_VERSION=924)
 
+################################################################################
+# SMS BIG EDITS START HERE
+################################################################################
+
+set(OAI_HSS_DIR		${OPENAIRCN_DIR}/src/oai_hss)
+
+INCLUDE(FindMySQL)
+IF( NOT MySQL_FOUND )
+  MESSAGE( SEND_ERROR "MySQL Client is required" )
+ENDIF( NOT MySQL_FOUND )
+
+INCLUDE(FindNettle)
+IF( NOT NETTLE_FOUND )
+  MESSAGE( SEND_ERROR "Nettle is required" )
+ENDIF( NOT NETTLE_FOUND )
+
+set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
+find_package(Threads REQUIRED)
+
+################################################################################
+# ACCESS RESTRICTION LIB
+################################################################################
+set(ar_SRC
+    ${OAI_HSS_DIR}/access_restriction/access_restriction.c
+)
+set(ar_HDR
+    ${OAI_HSS_DIR}/access_restriction/access_restriction.h
+    ${OAI_HSS_DIR}/utils/conversion.h
+    ${OAI_HSS_DIR}/utils/log.h
+)
+
+add_library(hss_access_restriction ${ar_SRC} ${ar_HDR})
+target_include_directories(hss_access_restriction PRIVATE ${OAI_HSS_DIR}/utils)
+
+################################################################################
+# AUC LIB
+################################################################################
+set(auc_SRC
+    ${OAI_HSS_DIR}/auc/fx.c
+    ${OAI_HSS_DIR}/auc/kdf.c
+    ${OAI_HSS_DIR}/auc/random.c
+    ${OAI_HSS_DIR}/auc/rijndael.c
+    ${OAI_HSS_DIR}/auc/sequence_number.c
+)
+set(auc_HDR
+    ${OAI_HSS_DIR}/auc/auc.h
+    ${OAI_HSS_DIR}/utils/log.h
+)
+
+# SMS TODO: FIX THIS AND COMMENT BACK IN!!!
+#add_library(hss_auc ${auc_SRC} ${auc_HDR})
+
+
+################################################################################
+# DB LIB
+################################################################################
+set(db_SRC
+    ${OAI_HSS_DIR}/db/db_connector.c
+    ${OAI_HSS_DIR}/db/db_epc_equipment.c
+    ${OAI_HSS_DIR}/db/db_subscription_data.c
+)
+set(db_HDR
+    ${OAI_HSS_DIR}/db/db_proto.h
+    ${OAI_HSS_DIR}/utils/hss_config.h
+    ${OAI_HSS_DIR}/utils/log.h
+)
+
+add_library(hss_db ${db_SRC} ${db_HDR})
+target_include_directories(hss_db PRIVATE ${OAI_HSS_DIR}/utils)
+
+################################################################################
+# S6A LIB
+################################################################################
+set(s6a_SRC
+    ${OAI_HSS_DIR}/s6a/s6a_auth_info.c
+    ${OAI_HSS_DIR}/s6a/s6a_common.c
+    ${OAI_HSS_DIR}/s6a/s6a_error.c
+    ${OAI_HSS_DIR}/s6a/s6a_fd.c
+    ${OAI_HSS_DIR}/s6a/s6a_in_addr.c
+    ${OAI_HSS_DIR}/s6a/s6a_peers.c
+    ${OAI_HSS_DIR}/s6a/s6a_purge_ue.c
+    ${OAI_HSS_DIR}/s6a/s6a_subscription_data.c
+    ${OAI_HSS_DIR}/s6a/s6a_supported_features.c
+    ${OAI_HSS_DIR}/s6a/s6a_up_loc.c
+)
+set(s6a_HDR
+    ${OAI_HSS_DIR}/s6a/s6a_proto.h
+    ${OAI_HSS_DIR}/db/db_proto.h
+    ${OAI_HSS_DIR}/utils/hss_config.h
+    ${OAI_HSS_DIR}/auc/auc.h
+    ${OAI_HSS_DIR}/access_restriction/access_restriction.h
+    ${OAI_HSS_DIR}/utils/log.h
+)
+
+# SMS TODO: FIX THIS AND COMMENT BACK IN!!!
+#add_library(hss_s6a ${s6a_SRC} ${s6a_HDR})
+#target_include_directories(hss_s6a PRIVATE ${OAI_HSS_DIR}/utils)
+#target_include_directories(hss_s6a PRIVATE ${OAI_HSS_DIR}/db)
+#target_include_directories(hss_s6a PRIVATE ${OAI_HSS_DIR}/auc)
+#target_include_directories(hss_s6a PRIVATE ${OAI_HSS_DIR}/access_restriction)
+#target_include_directories(hss_s6a PRIVATE ${FREEDIAMETER_INCLUDE_DIR})
+
+################################################################################
+# UTILS LIB
+################################################################################
+
+set(UTILS_GENERATED_DIR ${OPENAIR_BIN_DIR})
+
+
+
+set(utils_SRC
+    ${OAI_HSS_DIR}/utils/conversion.c
+    ${OAI_HSS_DIR}/utils/hss_config.c
+    ${OAI_HSS_DIR}/utils/pid_file.c
+)
+set(utils_HDR
+    ${OAI_HSS_DIR}/utils/conversion.h
+    ${OAI_HSS_DIR}/utils/hss_config.h
+    ${OAI_HSS_DIR}/utils/log.h
+    ${OAI_HSS_DIR}/utils/queue.h
+    ${OAI_HSS_DIR}/utils/pid_file.h
+)
+
+add_library(hss_utils ${utils_SRC} ${utils_HDR})
+
+################################################################################
+# SMS BIG EDITS END HERE
+################################################################################
+
 #################################
 # add executables for operation
 #################################
@@ -886,11 +1015,16 @@ add_executable(mme
 if( ITTI_ANALYZER )
   add_executable(mme ${OPENAIRCN_BIN_DIR}/messages_xml.h )
 endif( ITTI_ANALYZER )
+# SMS NOTE: I added several libraries to the end of the mme line because we're folding in the HSS.
 target_link_libraries (mme
   -Wl,--start-group
-   LIB_NAS_MME S1AP_LIB S1AP_EPC S11_MME GTPV2C SCTP_SERVER UDP_SERVER SECU_CN  S6A MME_APP LFDS ${MSC_LIB} ${ITTI_LIB} CN_UTILS HASHTABLE BSTR
+   LIB_NAS_MME S1AP_LIB S1AP_EPC S11_MME GTPV2C SCTP_SERVER UDP_SERVER SECU_CN  S6A MME_APP LFDS ${MSC_LIB} ${ITTI_LIB} CN_UTILS HASHTABLE BSTR 
+  hss_access_restriction hss_db hss_utils
+# SMS TODO: UN-COMMENT THIS LINE
+#  hss_auc hss_s6a
   -Wl,--end-group
-  pthread m sctp  rt crypt ${CRYPTO_LIBRARIES} ${OPENSSL_LIBRARIES} ${NETTLE_LIBRARIES} ${CONFIG_LIBRARIES} gnutls fdproto fdcore
+# SMS NOTE: FREEDIAMETER'S NOT IN HERE, BUT IS FOR HSS.
+  pthread m sctp  rt crypt ${CRYPTO_LIBRARIES} ${OPENSSL_LIBRARIES} ${NETTLE_LIBRARIES} ${CONFIG_LIBRARIES} ${MySQL_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} gnutls fdproto fdcore
   )
 
 

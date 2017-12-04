@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/epc-dolte/src/sctp/sctp_common.c.o"
-  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/epc-dolte/src/sctp/sctp_itti_messaging.c.o"
-  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/epc-dolte/src/sctp/sctp_primitives_server.c.o"
+  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/enbrains/src/sctp/sctp_common.c.o"
+  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/enbrains/src/sctp/sctp_itti_messaging.c.o"
+  "CMakeFiles/SCTP_SERVER.dir/home/spencer/Desktop/enbrains/src/sctp/sctp_primitives_server.c.o"
   "libSCTP_SERVER.pdb"
   "libSCTP_SERVER.a"
 )

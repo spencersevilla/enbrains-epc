@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spencer/Desktop/epc-dolte/build/mme
+CMAKE_SOURCE_DIR = /home/spencer/Desktop/enbrains/build/mme
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spencer/Desktop/epc-dolte/build/mme/build
+CMAKE_BINARY_DIR = /home/spencer/Desktop/enbrains/build/mme/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/auth_request.dir/depend.make
@@ -57,171 +57,172 @@ include CMakeFiles/auth_request.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/auth_request.dir/flags.make
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o: /home/spencer/Desktop/epc-dolte/src/test/auth_request.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o   -c /home/spencer/Desktop/epc-dolte/src/test/auth_request.c
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o: /home/spencer/Desktop/enbrains/src/test/auth_request.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o   -c /home/spencer/Desktop/enbrains/src/test/auth_request.c
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/test/auth_request.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.i
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/test/auth_request.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.i
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/test/auth_request.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.s
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/test/auth_request.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.s
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.requires:
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.requires:
 
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.requires
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.requires
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.provides
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.provides
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o
-
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o: /home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o   -c /home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.i
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.s
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.requires:
-
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.requires
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.provides
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o
 
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o: /home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o   -c /home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o: /home/spencer/Desktop/enbrains/src/common/itti/backtrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o   -c /home/spencer/Desktop/enbrains/src/common/itti/backtrace.c
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.i
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/common/itti/backtrace.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.i
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.s
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/common/itti/backtrace.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.s
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.requires:
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.requires:
 
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.requires
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.requires
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.provides
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.provides
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o
-
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o: /home/spencer/Desktop/epc-dolte/src/secu/kdf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o   -c /home/spencer/Desktop/epc-dolte/src/secu/kdf.c
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/secu/kdf.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.i
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/secu/kdf.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.s
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.requires:
-
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.requires
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.provides
-
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o
 
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o: /home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o   -c /home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o: /home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o   -c /home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.i
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.i
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.s
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.s
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.requires:
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.requires:
 
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.requires
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.requires
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.provides
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.provides
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o
 
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o: CMakeFiles/auth_request.dir/flags.make
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o: /home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o   -c /home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o: /home/spencer/Desktop/enbrains/src/secu/kdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o   -c /home/spencer/Desktop/enbrains/src/secu/kdf.c
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.i
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/secu/kdf.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.i
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.s
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/secu/kdf.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.s
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.requires:
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.requires:
 
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.requires
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.requires
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.requires
-	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.provides.build
-.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.provides
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.provides
 
-CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o
+
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o: /home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o   -c /home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.i
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.s
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.requires:
+
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.requires
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.provides
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o
+
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o: CMakeFiles/auth_request.dir/flags.make
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o: /home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o   -c /home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c > CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.i
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c -o CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.s
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.requires:
+
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.requires
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.provides: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.requires
+	$(MAKE) -f CMakeFiles/auth_request.dir/build.make CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.provides.build
+.PHONY : CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.provides
+
+CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.provides.build: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o
 
 
 # Object files for target auth_request
 auth_request_OBJECTS = \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o" \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o" \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o" \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o" \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o" \
-"CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o"
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o" \
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o" \
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o" \
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o" \
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o" \
+"CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o"
 
 # External object files for target auth_request
 auth_request_EXTERNAL_OBJECTS =
 
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o
-auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o
+auth_request: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o
 auth_request: CMakeFiles/auth_request.dir/build.make
+auth_request: /usr/lib/x86_64-linux-gnu/libnettle.so
 auth_request: CMakeFiles/auth_request.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable auth_request"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable auth_request"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/auth_request.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,12 +230,12 @@ CMakeFiles/auth_request.dir/build: auth_request
 
 .PHONY : CMakeFiles/auth_request.dir/build
 
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/test/auth_request.c.o.requires
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/common/itti/backtrace.c.o.requires
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/key_nas_deriver.c.o.requires
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/secu/kdf.c.o.requires
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/mcc_mnc_itu.c.o.requires
-CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/epc-dolte/src/utils/dynamic_memory_check.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/test/auth_request.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/common/itti/backtrace.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/key_nas_deriver.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/secu/kdf.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/mcc_mnc_itu.c.o.requires
+CMakeFiles/auth_request.dir/requires: CMakeFiles/auth_request.dir/home/spencer/Desktop/enbrains/src/utils/dynamic_memory_check.c.o.requires
 
 .PHONY : CMakeFiles/auth_request.dir/requires
 
@@ -243,6 +244,6 @@ CMakeFiles/auth_request.dir/clean:
 .PHONY : CMakeFiles/auth_request.dir/clean
 
 CMakeFiles/auth_request.dir/depend:
-	cd /home/spencer/Desktop/epc-dolte/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build /home/spencer/Desktop/epc-dolte/build/mme/build/CMakeFiles/auth_request.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/spencer/Desktop/enbrains/build/mme/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build /home/spencer/Desktop/enbrains/build/mme/build/CMakeFiles/auth_request.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/auth_request.dir/depend
 

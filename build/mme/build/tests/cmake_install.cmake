@@ -1,4 +1,4 @@
-# Install script for directory: /home/spencer/Desktop/epc-dolte/src/test
+# Install script for directory: /home/spencer/Desktop/enbrains/src/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

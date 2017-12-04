@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/access_restriction.c
+/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.c
 stdlib.h
 -
 stdio.h
@@ -16,17 +16,17 @@ string.h
 stdint.h
 -
 conversion.h
-/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/conversion.h
+/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/conversion.h
 access_restriction.h
-/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/access_restriction.h
+/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.h
 log.h
-/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/log.h
+/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/log.h
 
-/home/spencer/Desktop/epc-dolte/src/oai_hss/access_restriction/access_restriction.h
+/home/spencer/Desktop/enbrains/src/oai_hss/access_restriction/access_restriction.h
 
-/home/spencer/Desktop/epc-dolte/src/oai_hss/utils/conversion.h
+/home/spencer/Desktop/enbrains/src/oai_hss/utils/conversion.h
 
-/home/spencer/Desktop/epc-dolte/src/oai_hss/utils/log.h
+/home/spencer/Desktop/enbrains/src/oai_hss/utils/log.h
 stdarg.h
 -
 syslog.h

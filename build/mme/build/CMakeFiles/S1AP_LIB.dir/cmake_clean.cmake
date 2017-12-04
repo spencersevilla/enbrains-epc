@@ -394,7 +394,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/xer_decoder.c.o"
   "CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/xer_encoder.c.o"
   "CMakeFiles/S1AP_LIB.dir/CMakeFiles/r10.5/xer_support.c.o"
-  "CMakeFiles/S1AP_LIB.dir/home/spencer/Desktop/epc-dolte/src/s1ap/s1ap_common.c.o"
+  "CMakeFiles/S1AP_LIB.dir/home/spencer/Desktop/enbrains/src/s1ap/s1ap_common.c.o"
   "libS1AP_LIB.pdb"
   "libS1AP_LIB.a"
 )

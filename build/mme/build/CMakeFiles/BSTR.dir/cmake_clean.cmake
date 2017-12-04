@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BSTR.dir/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstraux.c.o"
-  "CMakeFiles/BSTR.dir/home/spencer/Desktop/epc-dolte/src/utils/bstr/bstrlib.c.o"
-  "CMakeFiles/BSTR.dir/home/spencer/Desktop/epc-dolte/src/utils/bstr/buniutil.c.o"
-  "CMakeFiles/BSTR.dir/home/spencer/Desktop/epc-dolte/src/utils/bstr/utf8util.c.o"
+  "CMakeFiles/BSTR.dir/home/spencer/Desktop/enbrains/src/utils/bstr/bstraux.c.o"
+  "CMakeFiles/BSTR.dir/home/spencer/Desktop/enbrains/src/utils/bstr/bstrlib.c.o"
+  "CMakeFiles/BSTR.dir/home/spencer/Desktop/enbrains/src/utils/bstr/buniutil.c.o"
+  "CMakeFiles/BSTR.dir/home/spencer/Desktop/enbrains/src/utils/bstr/utf8util.c.o"
   "libBSTR.pdb"
   "libBSTR.a"
 )
