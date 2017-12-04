@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMSC.a  CMakeFiles/MSC.dir/home/spencer/Desktop/enbrains/src/utils/msc/msc.c.o
-/usr/bin/ranlib libMSC.a
